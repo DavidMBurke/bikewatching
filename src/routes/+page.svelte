@@ -19,7 +19,7 @@
     let filteredDepartures = [];
     let filteredArrivals = [];
     let stationFlow = d3.scaleQuantize().domain([0, 1]).range([0, 0.5, 1]);
-    //
+    ///
     mapboxgl.accessToken =
         "pk.eyJ1IjoiYnVya2VkbSIsImEiOiJjbHViOXBobzQwdG8wMmxwNnk2dDJhMmp6In0.jyh_zboCAZPmR-dn5GcdVA";
 
