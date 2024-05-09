@@ -3,6 +3,7 @@
     import "../../node_modules/mapbox-gl/dist/mapbox-gl.css";
     import { onMount } from "svelte";
     import * as d3 from "d3";
+    export const prerender = true;
 
     let map;
     let stations = [];
